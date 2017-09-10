@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "Microsoft Yahei";
+	box-sizing: border-box;
+}
+ul,ol,dl{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.container{
+	margin:50px auto;
+	width:1000px;
+	overflow: hidden;
+	border-radius: 20px 20px 0 0;
+}
+.container .header{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	background: rgba(92,158,255,.8);
+	color:#fff;
+	padding:20px 40px;
+}
+.header .author-info .avator{
+	float:left;
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	margin-right:20px;
+	background:url(http://pic.qqtn.com/up/2014-8/14090143441157621.jpg) center no-repeat;
+	background-size:contain;
+}
+.header .author-info .name{
+	float:right;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	height:200px;
+}
+.header .basic-info{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:flex-start;
+	height:200px;
+}
+.header .basic-info i{
+	display: inline-block;
+	width:20px;
+	margin-right:6px;
+}
+
+.container .content{
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:flex-start;
+	padding:20px 40px;
+	background: #ddd;
+}
+.content .item{
+	width:100%;
+	line-height: 2.5rem;
+}
+.content .item a{
+	color:#00f;
+}
+.content .item .title{
+	width:100%;
+	border-bottom: 2px solid #ccc;
+} 
+.content .item  h5{
+	color:#00f;
+}
